@@ -1,38 +1,57 @@
 body{
     background-color: white;
     color: black;
+    text-align: justify;
 }
 
-p{
-    font-size: 14px; /* Paragraphes de 14 pixels */
+header{
+    width: 100%;
+    padding: 30px 0px;
+    background-image: url("images/espace.jpg");
+    border-bottom: 2px solid white;
+    height: 120px;
+}
+
+.premierContenu{
+    width: 40%;
+    padding: 0px;
+}
+
+.premierContenu p{
+    margin-left: 20px;
+    font-size: 20px; /* Paragraphes de 14 pixels */
+}
+
+.premierContenu ul{
+    margin-left: 30px;
+    font-size: 20px;
 }
 
 h1{
+    margin-left: 20px;
     font-size: 3em;
 }
 
-h2{
-
-}
-
-nav{
-
+.premierContenu h2{
+    margin-left: 20px;
 }
 
 .age{
     font-size: 20px;
 }
 
-.premierContenu{
-    text-align: center;
-    width: 500px;
-    position: absolute;
-    top: 0px; left:0px;
-}
-
 .deuxiemeContenu{
     position: absolute;
-    top: 20px; left: 500px;
+    top: 215px; left: 550px;
+}
+
+.deuxiemeContenu ul{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.deuxiemeContenu p{
+    font-size: 20px;
 }
 
 /*.haut{
@@ -49,11 +68,11 @@ nav{
 
 }
 
-.imageMini{
+.image{
     text-align: center;
+    border: 3px solid white;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 50%;
 }
 
-.page2:hover{
-    font-style: oblique;
-}
 

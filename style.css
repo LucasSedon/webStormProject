@@ -1,18 +1,59 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 p{
-    color : green;
     font-size: 14px; /* Paragraphes de 14 pixels */
 }
 
 h1{
-    font-size: 40px; /* Titres de 40 pixels */
+    font-size: 3em;
 }
 
-.competences{
-    color : blue;
+h2{
+
+}
+
+nav{
+
+}
+
+.age{
+    font-size: 20px;
+}
+
+.premierContenu{
+    text-align: center;
+    width: 500px;
+    position: absolute;
+    top: 0px; left:0px;
+}
+
+.deuxiemeContenu{
+    position: absolute;
+    top: 20px; left: 500px;
+}
+
+/*.haut{
+    text-align: center;
+    alignment: center;
+}
+*/
+
+.liste{
+    list-style-type: none;
+}
+
+.listeCompetences{
+
+}
+
+.imageMini{
+    text-align: center;
+}
+
+.page2:hover{
+    font-style: oblique;
 }
 

@@ -1,78 +1,117 @@
-body{
-    background-color: white;
-    color: black;
+*{
+    font-family: Avenir, sans-serif;
+    padding: 0px;
+    margin: 0px;
     text-align: justify;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ededed;
+}
+
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*HEADER & FOOTER*/
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    background-image: url("images/espace.jpg");
+    box-shadow: 0px 0px 15px #333;
 }
 
 header{
-    width: 100%;
-    padding: 30px 0px;
-    background-image: url("images/espace.jpg");
     border-bottom: 2px solid white;
     height: 120px;
 }
 
-.premierContenu{
-    width: 40%;
-    padding: 0px;
+header h1{
+    color: white;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 0 auto;
 }
 
-.premierContenu p{
-    margin-left: 20px;
-    font-size: 20px; /* Paragraphes de 14 pixels */
+footer{
+    border-top: 2px solid #fff;
+    background-image: url("images/espace.jpg");
 }
 
-.premierContenu ul{
-    margin-left: 30px;
-    font-size: 20px;
-}
-
-h1{
-    margin-left: 20px;
-    font-size: 3em;
-}
-
-.premierContenu h2{
-    margin-left: 20px;
-}
-
-.age{
-    font-size: 20px;
-}
-
-.deuxiemeContenu{
-    position: absolute;
-    top: 215px; left: 550px;
-}
-
-.deuxiemeContenu ul{
-    margin-left: 30px;
-    font-size: 20px;
-}
-
-.deuxiemeContenu p{
-    font-size: 20px;
-}
-
-/*.haut{
+footer p{
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
     text-align: center;
-    alignment: center;
-}
-*/
-
-.liste{
-    list-style-type: none;
 }
 
-.listeCompetences{
+footer a{
+    color: #fff;
+}
 
+/*SECTIONS*/
+.mesSections{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+}
+
+.mesSections section{
+    display: inline-flex;
+    flex-flow: column;
+    position: center;
+    width: 50%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px grey;
+    background-color: white;
+}
+
+div h2{
+    margin: 20px 0;
+    width: 90%;
+}
+
+section > div{
+    width: 90%;
 }
 
 .image{
+    width: 100%;
     text-align: center;
-    border: 3px solid white;
+}
+
+.image img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #fff;
     box-shadow: 0px 0px 10px grey;
     border-radius: 50%;
+    margin-top: -80px;
 }
+
+.infoPerso p{
+    text-align: center;
+    border-bottom: 2px dashed #ccc;
+}
+
+.peronnalite h2{
+    text-align: center;
+}
+
+
 
 
